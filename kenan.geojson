@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "kenan",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "id": 1, "Kenan": "Kenan Stadium" }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ -79.048282106020196, 35.907426225846379 ], [ -79.047099082309927, 35.906914699329057 ], [ -79.047383719593583, 35.906489625482187 ], [ -79.048575638218963, 35.906965131667853 ], [ -79.048282106020196, 35.907426225846379 ] ] ] ] } }
+]
+}

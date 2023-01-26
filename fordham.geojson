@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "fordham",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "id": 1, "Fordham": "Fordham" }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ -79.053591957227198, 35.894228992150119 ], [ -79.037991790180726, 35.897593877206333 ], [ -79.035796910399583, 35.898588020419155 ], [ -79.032398386867527, 35.901952720185456 ], [ -79.028392141245533, 35.906598064896315 ] ] ] } }
+]
+}
