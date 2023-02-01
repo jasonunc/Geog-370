@@ -28,5 +28,49 @@
     <p></p>
     <h2>Data used for this project</h2>
     <a href="https://www.naturalearthdata.com/http//www.naturalearthdata.com/download/10m/cultural/ne_10m_admin_0_countries.zip"> Download Natrual Earth 1:10m Cultural Vector </a>
+
+    <h2>EPSG 3857 Projection</h2>
+    <h3>This map is similar to the first two in how it is the most accurate close to the equator, but this one distorts evenly horizontally and vertically.</h3>
+    <a href="./3857.png">
+    <img src="./3857.png" alt = 3857 width = '500px'>
+    </a>
+
+    <h2>EPSG 53018 Projection</h2>
+    <h3>This map skews distance and size some, but it skews size much less than the previous projections because the projection itself is an oval.</h3>
+    <a href="./53018.png">
+    <img src="./53018.png" alt = 53018 width = '500px'>
+    </a>
+
+    <h2>EPSG 54027 Projection</h2>
+    <h3>This projects Earth similar to a pancake, which keeps everything well positioned from the persepctive of the North Pole, but it's distorted horizontally almost everywhere except the second and third rows of dots. The Pacific Ocean is also massive.</h3>
+    <a href="./54027.png">
+    <img src="./54027.png" alt = 54027 width = '500px'>
+    </a>
+
+    <h2>EPSG 54034 Projection</h2>
+    <h3>This map preserves longitude almost perfectly, but skews the latitude worse and worse as latitude expands in either direction from zero.</h3>
+    <a href="./54034.png">
+    <img src="./54034.png" alt = 54034 width = '500px'>
+    </a>
+
+    <h2>EPSG 102016 Projection</h2>
+    <h3>This map projects Earth like a pancake similar to EPSG 54027. However, this projection fixed the Pacific Ocean problem at the cost of further skewing horizontal distance.</h3>
+    <a href="./102016.png">
+    <img src="./102016.png" alt = 102016 width = '500px'>
+    </a>
+
+    <h2>EPSG 102239 Projection</h2>
+    <h3>This projection is very interesting. It centers around the North Pola and Australia, distorting latitude and longitude severely, but evenly. This projection appears to have been created to make Africa seem as large as possible.</h3>
+    <a href="./102239png">
+    <img src="./102239.png" alt = 102239 width = '500px'>
+    </a>
+
+    <h2>EPSG 102239 Projection</h2>
+    <h3>This projection is my personal favorite. It preserves longitude in all latitudes, and keeps the first row of dots above and below the equator ones undistorted. This not only keeps where I live undistorted, but it minimizes distortion globally. Distortion is vertical at the equator, but horizontal near the poles.</h3>
+    <a href="./3975png">
+    <img src="./3975.png" alt = 3975 width = '500px'>
+    </a>
+
+    
 </body>
 </html>
