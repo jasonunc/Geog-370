@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"name": "New_Buildings",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "New Bdings": "New Buildings" }, "geometry": { "type": "MultiPolygon", "coordinates": [ ] } },
+{ "type": "Feature", "properties": { "New Bdings": "" }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ -115.176253466821365, 36.114553880825255 ], [ -115.17302574880344, 36.114289021525146 ], [ -115.173015436517431, 36.101348935141338 ], [ -115.179256751749563, 36.101515856523299 ], [ -115.179667980872793, 36.112485115928578 ], [ -115.179027278720184, 36.113373982756357 ], [ -115.178616280258964, 36.113906896878895 ], [ -115.17762958710118, 36.114431051017654 ], [ -115.176253466821365, 36.114553880825255 ] ] ] ] } }
+]
+}
