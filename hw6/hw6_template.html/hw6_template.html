@@ -21,6 +21,18 @@
     <a href="pennsylvania_counties.shp"> Link to shapefile </a>
     <p></p>
     <a href="pcfinal.geojson">Vector file as geoJSON in 4326</a>
-
+<h2>Homework 6 Part 2</h2>
+    <h3>This is a map of the aggregate monthly owner costs in Pennsylvania again, but this time I changed the mode of the choropleth to equal count so there would be a more colorful map. While it is visually appealing, this kind of map doesn't accurately group counties because some counties are grouped with ones with drastically different values.</h3>
+    <a href="MOC_count.png">
+        <img src="MOC_count.png" alt="Pennsylvania Monthly Aggregate Owner Costs, Equal Count" width='500px'>
+        </a>
+    <h3>This is a map of the aggregate monthly owner costs in Pennsylvania again, but this time I changed the mode of the choropleth to equal interval so the difference between one color and the next would be equal. While this is better with skewed data, the dataset I used had many values in the first color range (white), so the map ended up not being very useful or visually appealing.</h3>
+    <a href="MOC_interval.png">
+        <img src="MOC_interval.png" alt="Pennsylvania Monthly Aggregate Owner Costs, Equal Interval" width='500px'>
+        </a>
+    <h3>This is a map of the aggregate monthly owner costs in Pennsylvania again, but this time I changed the mode of the choropleth to natural breaks to make a balance between the previous two modes. While it is more visually appealing than the equal interval map, there are still mostly white counties. Because of this, I can conclude that defining natural breaks works when there are natural breaks, but otherwise it can lead to arbitrary color intervals.</h3>
+    <a href="MOC_natural.png">
+        <img src="MOC_natural.png" alt="Pennsylvania Monthly Aggregate Owner Costs, Natural Breaks" width='500px'>
+        </a>
 </body>
 </html>
